@@ -47,17 +47,22 @@ my_tuple = ("Ernest Hemingway", "J.D. Salinger", "F. Scott Fitzgerald", "Harper 
 # Create a set with your authors.
 
 # Code here
+
+my_set = {"Ernest Hemingway", "J.D. Salinger", "F. Scott Fitzgerald", "Harper Lee", "John Steinbeck", "Stephen King", "Rudyard Kipling"}
 # Example: my_author_set = {"F. Scott Fitzgerald", "J.K. Rowling", "Ernest Hemingway", "Emily Dickenson", "George Orwell", "Ray Bradbury"}
 
 
 # Add a new author to your set.
 
 # Code here
+my_set.add("William Faulker")
+
 # Example: my_author_set.add("J.R.R. Tolkien")
 
 
 # Try adding the same author again, and be sure to print your set.
-
+my_set.add("William Faulker")
+print(my_set)
 # Code here
 # Example: my_author_set.add("J.R.R. Tolkien")
 
@@ -69,7 +74,14 @@ my_tuple = ("Ernest Hemingway", "J.D. Salinger", "F. Scott Fitzgerald", "Harper 
 
 # Code here
 # Example:
+for book in my_authors:
+    print(book)
 
+for book in my_set:
+    print(book)
+
+for book in my_tuple:
+    print(book)
 # for book in my_authors:
     # print(book)
 
