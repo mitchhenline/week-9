@@ -74,6 +74,9 @@ def menu():
         else:
             print("\nPlease enter a '1', '2' or '3'")
 
+# if __name__ == “__main__”:
+    # menu()
+
 menu()
 
 
@@ -81,10 +84,4 @@ menu()
 
 ## Now follow the instructions in this final step. Expand your project. Clean up the code.
 #  Make your application functional. Great job getting your first Python application finished!
-
-
-
-
-# # if __name__ == “__main__”:
-#     menu("mitchlibrary.txt")
 
