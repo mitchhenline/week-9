@@ -34,14 +34,19 @@ def create_new_book():
 # Code here
 
 def print_books():
-    
+    books_list = []
     with open("mitchlibrary.txt", "r") as f:
         file = f.readlines()
-
         for line in file:
             title, author, year, rating, pages = line.split(", ")
-       
-        print (f"Book title: {title}, Author:{author}, Year published:{year}, Rating:{rating}, Page count:{pages} ")
+            books_list.append({
+                "title": title,
+                "author": author,
+                "year": int(year),
+                "rating": float(rating),
+                "pages": int(pages)
+            })
+    print (f"Book title: {title}, Author:{author}, Year published:{year}, Rating:{rating}, Page count:{pages} ")
 
 
 ### Step 3 - if __name__ == "__main__":
