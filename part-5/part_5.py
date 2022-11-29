@@ -37,6 +37,7 @@ def print_books():
     books_list = []
     with open("mitchlibrary.txt", "r") as f:
         file = f.readlines()
+        print("You list of books:")
         for line in file:
             title, author, year, rating, pages = line.split(", ")
             books_list.append({
@@ -46,7 +47,7 @@ def print_books():
                 "rating": float(rating),
                 "pages": int(pages)
             })
-    print (f"Book title: {title}, Author:{author}, Year published:{year}, Rating:{rating}, Page count:{pages} ")
+            print (f"Title: {title}, Author: {author}, Year published: {year}, Rating: {rating}, Page count: {pages}")
 
 
 ### Step 3 - if __name__ == "__main__":
