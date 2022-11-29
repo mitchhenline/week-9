@@ -63,7 +63,7 @@ def menu():
 
     while active:
 
-        select = input("Type '1' to enter a new book or type '2' to see all books. Type '3' to quit. - ")
+        select = input("Type '1' to enter a new book. Type '2' to see all books. Type '3' to exit. - ")
 
         if select == "1":
             create_new_book()
@@ -75,10 +75,7 @@ def menu():
         else:
             print("\nPlease enter a '1', '2' or '3'")
 
-# if __name__ == “__main__”:
-    # menu()
 
-menu()
 
 
 ### Step 4 - Expand and refactor
@@ -86,3 +83,9 @@ menu()
 ## Now follow the instructions in this final step. Expand your project. Clean up the code.
 #  Make your application functional. Great job getting your first Python application finished!
 
+
+
+# if __name__ == “__main__”:
+    # menu()
+
+menu()

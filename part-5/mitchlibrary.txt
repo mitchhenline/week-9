@@ -1,3 +1,6 @@
 The Catcher in the Rye, J.D. Salinger, 1951, 4.9, 234
 The Sun Also Rises, Ernest Hemingway, 1926, 4.5, 147
 Jurassic Park, Michael Crichton, 1990, 3.9, 448
+The Stand, Stephen King, 1978, 3.6, 823
+The Ballad of Songbirds and Snakes, Suzanne Collins, 2020, 4.0, 517
+The Great Gatsby, F. Scott Fitzgerald, 1925, 4.7, 208
